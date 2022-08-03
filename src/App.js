@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+//Antd Design StyleSheet
+import "antd/dist/antd.css";
 import './App.css';
 
 function App() {
