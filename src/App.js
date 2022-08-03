@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          OnBoarding For CutShort
+          OnBoarding For CutShort Main Branch
         </a>
       </header>
     </div>
