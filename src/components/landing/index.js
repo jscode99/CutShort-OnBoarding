@@ -49,7 +49,7 @@ export default function LandingPage() {
 
   return (
     <Row gutter={[0, 24]}>
-      <Col xs={24} sm={24} md={24} lg={24} xl={24} className="my-3">
+      <Col xs={24} sm={24} md={24} lg={24} xl={24} className="mt-3">
         <Steps current={current} onChange={onChange}>
           {steps.map((item) => (
             <Step key={item.title} />

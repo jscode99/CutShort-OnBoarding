@@ -3,6 +3,7 @@ import { Row, Col } from "antd";
 //Components
 import AppHeader from "../../../common-components/AppHeader";
 import AppInput from "../../../common-components/AppInput";
+import AppButton from "../../../common-components/AppButton";
 
 export default function ContentTwo() {
   return (
@@ -20,7 +21,11 @@ export default function ContentTwo() {
             placeholderTwo={`Example`}
             labelOne={`Workspace Name`}
             labelTwo={`Workspace URL`}
+            preTab={true}
           />
+        </Col>
+        <Col xs={24} sm={24} md={24} lg={24} xl={24}>
+          <AppButton label={`Create Workspace`} />
         </Col>
       </div>
     </Row>

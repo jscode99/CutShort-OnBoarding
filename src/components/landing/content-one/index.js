@@ -3,6 +3,7 @@ import { Row, Col } from "antd";
 //Components
 import AppHeader from "../../../common-components/AppHeader";
 import AppInput from "../../../common-components/AppInput";
+import AppButton from "../../../common-components/AppButton";
 //Styles
 import styles from "./index.module.sass";
 
@@ -23,6 +24,7 @@ export default function ContentOne() {
             labelOne={`Full Name`}
             labelTwo={`Display Name`}
           />
+          <AppButton label={`Create Workspace`} />
         </Col>
       </div>
     </Row>

@@ -8,6 +8,7 @@ export default function AppInput({
   placeholderTwo,
   labelOne,
   labelTwo,
+  preTab,
 }) {
   return (
     <div className="mt-4">
@@ -17,10 +18,21 @@ export default function AppInput({
           <Input placeholder={placeholderOne} allowClear />
         </Col>
         <br />
-        <Col xs={24} sm={24} md={24} lg={24} xl={24} className={`mt-3`}>
-          <p className={`${styles.label}`}>{labelTwo}</p>
-          <Input placeholder={placeholderTwo} allowClear />
-        </Col>
+        {preTab ? (
+          <Col xs={24} sm={24} md={24} lg={24} xl={24} className={`mt-3`}>
+            <p className={`${styles.label}`}>{labelTwo}</p>
+            <Input
+              addonBefore="www.cutshort.com/"
+              placeholder={placeholderTwo}
+              allowClear
+            />
+          </Col>
+        ) : (
+          <Col xs={24} sm={24} md={24} lg={24} xl={24} className={`mt-3`}>
+            <p className={`${styles.label}`}>{labelTwo}</p>
+            <Input placeholder={placeholderTwo} allowClear />
+          </Col>
+        )}
       </Row>
     </div>
   );
