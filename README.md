@@ -1,13 +1,13 @@
                                                   CutShort OnBoarding Page
                                                         
-         
+Deployed in Vercel         
 Live URL : https://onboarding-cutshort.vercel.app
 
 
 
                                                        Module Chart
                                                        
-You check on module chart to understand how the project is structured and use of components,common-components etc.
+You check on module chart to understand how the project is structured, deployment, CI/CD process, use of components,common-components etc.
 
 ![Untitled Diagram](https://user-images.githubusercontent.com/34735680/183012358-fbf4e115-187f-412a-832c-abcd5ef1c2a0.jpg)
 
