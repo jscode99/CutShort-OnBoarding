@@ -1,7 +1,7 @@
 //Antd
 import { Row, Col } from "antd";
 //Common-Components
-import AppLoader from "../../common-components/AppLoader";
+import AppLoader from "../../common-components/appLoader";
 //Styles
 import styles from "./index.module.sass";
 //Assets
